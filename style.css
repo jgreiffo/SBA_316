@@ -1,10 +1,31 @@
 .mainBox{
-    border: solid lightblue;
-    margin: 2em;
+    border: solid rgba(173, 216, 230, 0.349);
+    margin: 1em;
     background-color: rgba(198, 172, 172, 0.792);
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 100px;
+    padding: 15px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: initial;
+    text-align: center;
 
+}
+.testPractice{
+    border: solid rgba(198, 172, 172, 0.792);
+    margin: 2em;
+    font-size: 48px;
+    text-align: center;
+    font-family: cursive;
+    font-style:italic
+}
+.questionsAll{
+    border: solid rgba(245, 245, 245, 0.72);
+    margin: 1em;
+    background-color: rgba(245, 245, 245, 0.573);
+    display: block;
+    text-align: justify;
+    -ms-text-size-adjust: auto;
+    font: white;
 }
