@@ -1,24 +1,33 @@
+body {
+    background-image: url('https://i0.wp.com/mainemilitarymuseum.org/wp-content/uploads/2013/09/American-Flag-Wallpaper-1920x1080-40pct.jpg?ssl=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
 .mainBox{
     border: solid rgba(173, 216, 230, 0.349);
     margin: 1em;
     background-color: rgba(198, 172, 172, 0.792);
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-    font-size: 20px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 5px;
+    font-size: 18px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: initial;
-    text-align: center;
+    text-align: center;                
 
 }
 .testPractice{
     border: solid rgba(198, 172, 172, 0.792);
-    margin: 2em;
-    font-size: 48px;
+    border-radius: 25px;
+    padding-block: 25px;
+    margin: 5em;
+    font-size: 38px;
     text-align: center;
-    font-family: cursive;
-    font-style:italic
+    font-style:italic;
+    width: 150px;
+    height: 150px;
 }
 .questionsAll{
     border: solid rgba(245, 245, 245, 0.72);
