@@ -27,5 +27,11 @@
     display: block;
     text-align: justify;
     -ms-text-size-adjust: auto;
-    font: white;
+    text-decoration: dashed white; /*revisar como cuadrar color del texto*/
+}
+
+#arrowDown{
+    width: 80px;
+    height: 80px;
+
 }
