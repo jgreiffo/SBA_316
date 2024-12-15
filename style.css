@@ -19,10 +19,8 @@ body {
 
 }
 .testPractice{
-    border: solid rgba(198, 172, 172, 0.792);
-    border-radius: 25px;
+    /* border-radius: 25px; */
     margin: 3em;
-    display: flex;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     text-align: center;
@@ -31,15 +29,13 @@ body {
     height: 100px;
     
 }
-
+.arrowGif{
+    text-align: center;
+}
 #arrowDown{
     width: 50px;
     height: 50px;
-    display: flex;
-    justify-self: center;
-    text-align: center;
-
-}
+    }
 .questionsAll{
     border: solid #eae7e766;
     margin: 1em;
