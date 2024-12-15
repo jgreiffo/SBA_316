@@ -12,7 +12,7 @@ body {
     /* margin-left: auto;
     margin-right: auto; */
     padding: 5px;
-    font-size: 18px;
+    font-size: 18         px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: initial;
     text-align: center;                
@@ -21,13 +21,23 @@ body {
 .testPractice{
     border: solid rgba(198, 172, 172, 0.792);
     border-radius: 25px;
-    padding-block: 25px;
-    margin: 5em;
-    font-size: 38px;
+    margin: 3em;
+    display: flex;
+    text-wrap: center;
+    font-size: 40px;
     text-align: center;
     font-style:italic;
-    width: 150px;
-    height: 150px;
+    width: 500px;
+    height: 100px;
+    
+}
+
+#arrowDown{
+    width: 50px;
+    height: 50px;
+    display:inline;
+    justify-self: center;
+
 }
 .questionsAll{
     border: solid rgba(245, 245, 245, 0.72);
@@ -39,8 +49,3 @@ body {
     text-decoration: dashed white; /*revisar como cuadrar color del texto*/
 }
 
-#arrowDown{
-    width: 80px;
-    height: 80px;
-
-}
