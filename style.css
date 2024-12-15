@@ -5,9 +5,9 @@ body {
     background-size: cover;
     }
 .mainBox{
-    border: solid rgba(173, 216, 230, 0.349);
+    
     margin: 1em;
-    background-color: rgba(198, 172, 172, 0.792);
+    background-color: #eae7e766;
     display: block;
     /* margin-left: auto;
     margin-right: auto; */
@@ -23,11 +23,11 @@ body {
     border-radius: 25px;
     margin: 3em;
     display: flex;
-    text-wrap: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     text-align: center;
     font-style:italic;
-    width: 500px;
+    width: 700px;
     height: 100px;
     
 }
@@ -35,17 +35,32 @@ body {
 #arrowDown{
     width: 50px;
     height: 50px;
-    display:inline;
+    display: flex;
     justify-self: center;
+    text-align: center;
 
 }
 .questionsAll{
-    border: solid rgba(245, 245, 245, 0.72);
+    border: solid #eae7e766;
     margin: 1em;
-    background-color: rgba(245, 245, 245, 0.573);
+    background-color: #eae7e766;
     display: block;
     text-align: justify;
     -ms-text-size-adjust: auto;
     text-decoration: dashed white; /*revisar como cuadrar color del texto*/
 }
 
+.testOverview{
+    border: solid #6b7591;
+    border-right: 33em;
+    border-radius: 25px;
+    margin: 3em;
+    display: flex;
+    text-wrap: justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: center;
+    font-style:italic;
+    width: 900px;
+    height: 200px;
+}
