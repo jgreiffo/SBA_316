@@ -16,3 +16,23 @@ const slides = document.querySelectorAll('.slide');
 
         const prevButton = document.getElementById('prevButton');
         const nextButton = document.getElementById('nextButton');
+        function updateSlide() {
+            slides.forEach((slide, index) => {
+                slide.classList.toggle('active', index === currentSlide);
+            });
+        }
+        prevButton.addEventListener('click', () => {
+            if (currentSlide > 0) {
+                currentSlide--;
+                updateSlide();
+            }
+        });
+        nextButton.addEventListener('click', () => {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+                updateSlide();
+            }
+        });
+
+         // Initial update
+         updateSlide();
