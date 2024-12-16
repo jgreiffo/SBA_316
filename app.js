@@ -1,8 +1,6 @@
-const contenedor = document.getElementById('contenedor');
-console.log(typeof contenedor.innerHTML);
-// const titulo = document.getElementById('titulo');
-// console.log(typeof titulo);
-// const titulo = document.getElementById('titulo');
-// console.log(typeof innerText);
-const titulo = document.getElementById('titulo');
-console.log(typeof tagName);
+// const questions = document.getElementsByClassName('question');
+// console.log(questions);
+const questions = document.getElementsByTagName('li');
+console.log(questions);
+const question = document.querySelector('questions');
+console.log(questions);
