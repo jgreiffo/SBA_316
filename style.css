@@ -5,14 +5,15 @@ body {
     background-size: cover;
     }
 .mainBox{
-    
+    border-radius: 25px;
     margin: 1em;
     background-color: #eae7e766;
+    color: hsla(208, 67%, 21%, 0.871);
     display: block;
     /* margin-left: auto;
     margin-right: auto; */
     padding: 5px;
-    font-size: 18         px;
+    font-size: 18px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: initial;
     text-align: center;                
@@ -21,14 +22,14 @@ body {
 .testPractice{
     /* border-radius: 25px; */
     margin: 3em;
+    display: block;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     text-align: center;
     font-style:italic;
     width: 700px;
     height: 100px;
-    
-}
+    }
 .arrowGif{
     text-align: center;
 }
@@ -36,18 +37,23 @@ body {
     width: 50px;
     height: 50px;
     }
+/* .arrowGif:hover{
+    width: 210px;
+    color: rgba(255, 255, 0, 0.296);
+    font-size: 22px; */
+    /* } */
 .questionsAll{
-    border: solid #eae7e766;
+    border: solid #6b75914f;
     margin: 1em;
-    background-color: #eae7e766;
+    background-color:#6b75914f;
     display: block;
     text-align: justify;
-    -ms-text-size-adjust: auto;
     text-decoration: dashed white; /*revisar como cuadrar color del texto*/
 }
 
 .testOverview{
     border: solid #6b7591;
+    color: #330e0fdf;
     border-right: 33em;
     border-radius: 25px;
     margin: 3em;
@@ -57,6 +63,19 @@ body {
     font-size: 25px;
     text-align: center;
     font-style:italic;
-    width: 900px;
+    width: 800px;
     height: 200px;
 }
+.questionsAll{
+    background: #db737635;
+    display: block;
+    color:hsla(208, 67%, 21%, 0.871);
+    margin: 15px;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    border-radius: 40px ; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    }
+
