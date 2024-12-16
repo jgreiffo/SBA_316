@@ -79,7 +79,7 @@ body {
     width: 500px;
     height: 80px;
     text-align: center;
-    border-radius: 40px ; 
+    border-radius: 60px ; 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
     }
@@ -88,6 +88,19 @@ h5{
     color: rgba(5, 42, 5, 0.735);
 }
 h5:hover{
+    color: white;
+    background-color: rgba(5, 42, 5, 0.735);
+    border-radius: 40px ; 
+    width: auto;
+    height: auto;
+}
+
+h3{
+    color: #112479e1;
+    text-align: center;
+    
+}
+h3:hover{
     color: white;
     background-color: rgba(5, 42, 5, 0.735);
     border-radius: 40px ; 
