@@ -9,9 +9,10 @@ body {
     margin: 1em;
     background-color: #eae7e766;
     color: hsla(208, 67%, 21%, 0.871);
-    display: block;
-    /* margin-left: auto;
-    margin-right: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
     font-size: 18px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -22,7 +23,10 @@ body {
 .testPractice{
     /* border-radius: 25px; */
     margin: 3em;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     text-align: center;
@@ -31,7 +35,8 @@ body {
     height: 100px;
     }
 .arrowGif{
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;;
 }
 #arrowDown{
     width: 50px;
